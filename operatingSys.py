@@ -1,19 +1,25 @@
 def cal():
-    a = int(input("enter a number(pls enter the large number frist) : "))
-    b = int(input("enter a number : "))
-    opt = input("+ or - or * or / : ")
-    ans = 0
-    if(opt == "+"):
-        ans = a + b
-    elif(opt == "-"):
-        ans = a - b
-    elif(opt == "*"):
-        ans = a * b
-    elif(opt == "/"):
-        ans = a / b
-    else:
-        print("Error 404")
-    print(ans)
+    on_off = input("enter t to turn on")
+    while(on_off == "t"):        
+        a = int(input("enter a number(pls enter the large number frist) : "))
+        b = int(input("enter a number : "))
+        opt = input("+ or - or * or / : ")
+        on_off = input("is that all (T NO F):")
+
+        ans = 0
+        
+        if(opt == "+"):
+            ans = a + b
+        elif(opt == "-"):
+            ans = a - b
+        elif(opt == "*"):
+            ans = a * b
+        elif(opt == "/"):
+            ans = a / b
+        else:
+            print("Error 404")
+
+        print(ans)
 
 print("Hello there what do you want to do today? ")
 print("do you want to open the calculator app ?")
