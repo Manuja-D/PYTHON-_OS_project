@@ -6,4 +6,6 @@ window = tk.Tk()
 window.title('demo')
 window.geometry('300x150')
 
+#gui
+
 window.mainloop()
