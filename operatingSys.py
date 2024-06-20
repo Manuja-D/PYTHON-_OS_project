@@ -1,10 +1,10 @@
 def cal():
-    on_off = input("enter t to turn on")
-    while(on_off == "t"):        
+    on_off = input("enter T to turn on")
+    while(on_off == "t" or on_off == "T"):        
         a = int(input("enter a number(pls enter the large number frist) : "))
         b = int(input("enter a number : "))
         opt = input("+ or - or * or / : ")
-        on_off = input("is that all (T NO F):")
+        on_off = input("is that all (T or F):")
 
         ans = 0
         
@@ -33,4 +33,5 @@ elif(open == "n" or open == "N"):
     print("oh well then...nothing to see here for now good luck.")
 else:
     
-    print("thats not an answer for my question...")
+    print("thats not an valid answer for my question...")
+
