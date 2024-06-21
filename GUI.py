@@ -19,4 +19,4 @@ def save():
     note = note_entry.get("1.0",tk.END)
     conn = sqlite3.conect("notes.db")
     cursor = conn.cursor()
-    
+    cursor.execute("Create table")
